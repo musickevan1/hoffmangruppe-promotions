@@ -1,5 +1,8 @@
+[build.environment]
+  NODE_VERSION = "18.17.1"
+
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = ".next"
   functions = "functions"
 
