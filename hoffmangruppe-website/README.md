@@ -51,15 +51,13 @@ npm run start
 
 ## Deployment
 
-### Netlify Deployment
+### Vercel Deployment
 1. Push your code to a GitHub repository
-2. Go to https://app.netlify.com
-3. Click "New site from Git"
+2. Go to https://vercel.com
+3. Click "New Project"
 4. Select your Git provider and repository
-5. Configure build settings:
-   - Build command: `npm run build`
-   - Publish directory: `.next`
-6. Add environment variables in Netlify dashboard:
+5. Vercel will automatically detect the Next.js project
+6. Add environment variables in Vercel dashboard:
    - NEXT_PUBLIC_ALGOLIA_APP_ID
    - NEXT_PUBLIC_ALGOLIA_SEARCH_KEY
 7. Deploy your site
