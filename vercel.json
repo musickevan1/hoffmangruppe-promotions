@@ -1,0 +1,16 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_SITE_URL": "@site_url",
+      "NEXT_PUBLIC_ALGOLIA_APP_ID": "@algolia_app_id",
+      "NEXT_PUBLIC_ALGOLIA_SEARCH_KEY": "@algolia_search_key"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1",
+      "continue": true
+    }
+  ]
+}
