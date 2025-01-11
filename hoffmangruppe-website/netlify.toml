@@ -3,6 +3,9 @@
   publish = ".next"
   functions = "functions"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
