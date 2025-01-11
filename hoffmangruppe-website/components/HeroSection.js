@@ -5,7 +5,7 @@ export default function HeroSection({ id }) {
   return (
     <section 
       id={id} 
-      className="relative h-[calc(100vh-4rem)] bg-[url('/hero-banner.jpg')] bg-cover bg-center"
+      className="relative h-[calc(100vh-4rem)] bg-[url('/images/about.jpg')] bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-hoff-blue-900/90 to-hoff-blue-900/70"></div>
       <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center">
